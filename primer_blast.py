@@ -52,7 +52,7 @@ def find_primer_ot(blast_results: list):
 	
 if __name__ == "__main__":
 	
-	if len(sys.argv) <= 2:
+	if len(sys.argv) < 2:
 		print("Useage: run_blast.py [path to query fasta file] [path to query fasta file]")
 		sys.exit(1)
 		
